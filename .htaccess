@@ -1,7 +1,8 @@
-  Options +FollowSymLinks
+  options +FollowSymLinks
   RewriteEngine On
 
   RewriteCond %{SCRIPT_FILENAME} !-d
   RewriteCond %{SCRIPT_FILENAME} !-f
 
   RewriteRule ^.*$ ./index.php
+

@@ -9,7 +9,7 @@ ini_set('display_errors', 0);
  */
 
 // Temporary fix until full timezone functionality is included - this can be changed to any timezone
-date_default_timezone_set('Europe/London');
+date_default_timezone_set('America/New_York');
  
 require_once 'inc/pages.php'; // Load an array containing the pages that exist
 require_once 'inc/functions/array_handling.php'; // Custom array functions
