@@ -25,10 +25,10 @@ $directories = explode("/", $directory);
  *  Install file check
  */ 
 
-if(file_exists("pages/install.php") && strtolower($directories[1]) !== "install" && strtolower($directories[1]) !== "admin"){
+/*if(file_exists("pages/install.php") && strtolower($directories[1]) !== "install" && strtolower($directories[1]) !== "admin"){
 	header("Location: /install");
 	die();
-}
+}*/
 
 /*
  *  Define some variables..
